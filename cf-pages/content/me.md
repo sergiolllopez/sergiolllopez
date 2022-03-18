@@ -1,7 +1,7 @@
 ---
 title: "DevOps"
 date: 2022-03-18T14:33:59+01:00
-draft: true
+draft: false
 ---
 
 * SKILLS
