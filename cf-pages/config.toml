@@ -1,4 +1,14 @@
+
+# CloudFlare
 baseURL = "https://sergiolllopez.pages.dev/"
+# GitLab
+# https://gitlab.com/<YourUsername>/<your-hugo-site>/pipelines
+# https://<YourUsername>.gitlab.io/<your-hugo-site>/
+# GitHub
+# User/Organization Pages (https://<USERNAME|ORGANIZATION>.github.io/)
+# Project Pages (https://<USERNAME|ORGANIZATION>.github.io/<PROJECT>/)
+
+
 languageCode = "en-us"
 title = "sergiolllopez"
 

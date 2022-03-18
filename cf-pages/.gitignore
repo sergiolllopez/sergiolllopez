@@ -1,0 +1,3 @@
+# add /public directory to our .gitignore file
+/public
+
