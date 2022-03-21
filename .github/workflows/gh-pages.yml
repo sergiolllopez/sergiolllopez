@@ -33,7 +33,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: gh-pages
-          cname: sergiolllopez.com
+          # cname: sergiolllopez.com
           # external_repository: sergiolllopez/sergiolllopez.github.io
 
       # - name: CNAME

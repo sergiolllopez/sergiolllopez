@@ -1,6 +1,6 @@
 [build]
 publish = "docs"
-command = "hugo -s gh-pages/ --gc --minify"
+command = "hugo -s gh-pages/ -d ../docs --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.87.0"
