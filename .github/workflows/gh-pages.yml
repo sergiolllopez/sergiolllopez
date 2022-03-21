@@ -38,6 +38,6 @@ jobs:
 
       - name: CNAME
         run: 
-          echo www.sergiolllopez.com >> public/CNAME
+          echo www.sergiolllopez.com >> docs/CNAME
 
 
