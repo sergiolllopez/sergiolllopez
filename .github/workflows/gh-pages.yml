@@ -36,8 +36,8 @@ jobs:
           cname: sergiolllopez.com
           # external_repository: sergiolllopez/sergiolllopez.github.io
 
-      - name: CNAME
-        run: 
-          echo www.sergiolllopez.com >> docs/CNAME
+      # - name: CNAME
+      #   run: 
+      #     echo www.sergiolllopez.com >> docs/CNAME
 
 
