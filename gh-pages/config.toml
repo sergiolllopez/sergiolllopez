@@ -1,6 +1,6 @@
 
 # CloudFlare
-baseURL = "https://sergiolllopez.pages.dev/"
+# baseURL = "https://sergiolllopez.pages.dev/"
 # GitLab
 # https://gitlab.com/<YourUsername>/<your-hugo-site>/pipelines
 # https://<YourUsername>.gitlab.io/<your-hugo-site>/
@@ -8,12 +8,15 @@ baseURL = "https://sergiolllopez.pages.dev/"
 # User/Organization Pages (https://<USERNAME|ORGANIZATION>.github.io/)
 # Project Pages (https://<USERNAME|ORGANIZATION>.github.io/<PROJECT>/)
 
+baseURL = "https://sergiolllopez.github.io/sergiolllopez/"
 
 languageCode = "en-us"
 title = "sergiolllopez"
 
 theme        = "hello-friend-ng"
 paginate     = 10
+
+publishDir   = "docs"
 
 [params]
   dateform        = "Jan 2, 2006"

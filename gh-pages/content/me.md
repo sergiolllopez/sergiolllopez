@@ -1,6 +1,7 @@
 ---
 title: "DevOps"
 date: 2022-03-18T14:33:59+01:00
+tags: ["skills", "cv", "me"]
 draft: false
 ---
 
@@ -15,6 +16,8 @@ draft: false
   * CI/CD 
   * Docker
   * Kubernetes
+  * AWS/Azure/GoogleCloud
+  * OAuth2/SAML
   * ELK
   * Kafka
 
