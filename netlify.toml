@@ -1,6 +1,6 @@
 [build]
-publish = "docs"  // default hugo build folder
-command = "hugo --gc --minify" // hugo build command
+publish = "docs"
+command = "hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.87.0"
