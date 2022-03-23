@@ -12,8 +12,6 @@
 # baseURL = "https://sergiolllopez.netlify.app/" => HUGO_BASEURL
 #
 
-baseURL = ${{secrets.HUGO_BASEURL}}
-
 languageCode = "en-us"
 title = "sergiolllopez"
 
