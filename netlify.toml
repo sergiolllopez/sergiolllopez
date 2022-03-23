@@ -1,18 +1,11 @@
 [build]
 publish = "docs"
-command = "hugo -s gh-pages/ -d ../docs --gc --minify"
+command = "hugo -s gh-pages/ -d ../docs --gc --minify -b $URL"
 
 [context.production.environment]
 HUGO_VERSION = "0.87.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-
-[context.split1]
-command = "hugo -s gh-pages/ -d ../docs --gc --minify --enableGitInfo"
-
-[context.split1.environment]
-HUGO_VERSION = "0.87.0"
-HUGO_ENV = "production"
 
 [context.deploy-preview]
 command = "hugo -s gh-pages/ -d ../docs --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
