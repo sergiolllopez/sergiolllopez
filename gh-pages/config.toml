@@ -1,4 +1,5 @@
 
+#
 # CloudFlare
 # baseURL = "https://sergiolllopez.pages.dev/"
 # GitLab
@@ -7,8 +8,11 @@
 # GitHub
 # User/Organization Pages (https://<USERNAME|ORGANIZATION>.github.io/)
 # Project Pages (https://<USERNAME|ORGANIZATION>.github.io/<PROJECT>/)
+# Netlify
+# baseURL = "https://sergiolllopez.netlify.app/" => HUGO_BASEURL
+#
 
-baseURL = "https://sergiolllopez.github.io/sergiolllopez/"
+baseURL = ${{secrets.HUGO_BASEURL}}
 
 languageCode = "en-us"
 title = "sergiolllopez"
