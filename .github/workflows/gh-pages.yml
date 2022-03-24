@@ -24,7 +24,9 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --source gh-pages/ --destination ../docs --minify -b ${{ secrets.HUGO_BASEURL }}
+        env:
+          HUGO_BASEURL: ${{ secrets.HUGO_BASEURL }}
+        run: hugo --source gh-pages/ --destination ../docs --minify -b $HUGO_BASEURL
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
