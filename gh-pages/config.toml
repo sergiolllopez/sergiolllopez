@@ -1,14 +1,14 @@
 
 #
-# CloudFlare
-# baseURL = "https://sergiolllopez.pages.dev/"
+# Ok - CloudFlare
+# baseURL = "https://sergiolllopez.pages.dev/" => HUGO_BASEURL
 # GitLab
 # https://gitlab.com/<YourUsername>/<your-hugo-site>/pipelines
 # https://<YourUsername>.gitlab.io/<your-hugo-site>/
-# GitHub
+# Ok - GitHub
 # User/Organization Pages (https://<USERNAME|ORGANIZATION>.github.io/)
-# Project Pages (https://<USERNAME|ORGANIZATION>.github.io/<PROJECT>/)
-# Netlify
+# Project Pages (https://<USERNAME|ORGANIZATION>.github.io/<PROJECT>/) => HUGO_BASEURL
+# Ok - Netlify
 # baseURL = "https://sergiolllopez.netlify.app/" => HUGO_BASEURL
 #
 
